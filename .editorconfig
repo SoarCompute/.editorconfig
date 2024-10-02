@@ -1,4 +1,4 @@
-# .editorconfig file for UE Engine projects with Source SDK naming conventions
+# .editorconfig file for Soar Engine - a custom build of Unreal Engine
 
 # Top-most EditorConfig file
 root = true
@@ -20,6 +20,7 @@ indent_size = 4
 # C++ Specific settings (if needed)
 # You can also configure specific rules for C++ here if your IDE supports it
 
+# C++ naming conventions (add your preferred IDE specific configurations)
 [*.cpp]
 # Naming conventions can be enforced via IDE-specific settings
 # Example for Visual Studio
@@ -30,7 +31,7 @@ indent_size = 4
 # Example for Visual Studio
 # dotnet_naming_rule.use_camel_case_for_properties.severity = warning
 
-# Unreal Engine-specific settings
+# Soar Engine-specific settings
 [*.uasset]
 indent_size = 4
 insert_final_newline = true
@@ -39,7 +40,7 @@ insert_final_newline = true
 indent_size = 4
 insert_final_newline = true
 
-# Unreal specific source files
+# Soar Engine specific source files
 [*.{ini,build}]
 indent_size = 2
 insert_final_newline = true
@@ -51,3 +52,5 @@ insert_final_newline = true
 # Exclude any temporary files
 [*.tmp]
 # Ignore temporary files
+
+# End of .editorconfig
