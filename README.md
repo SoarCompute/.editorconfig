@@ -1,4 +1,4 @@
-# Unreal Engine Naming Convention Checker for C++
+# Soar Engine Naming Convention Checker for C++
 
 Improve your code quality with **Visual Studio’s Unreal Engine Naming Convention Checker**! This tool helps ensure your C++ symbols conform to the Unreal Engine coding style by providing real-time feedback.
 
